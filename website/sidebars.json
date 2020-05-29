@@ -6,5 +6,27 @@
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
+  },
+  "ArtificialIntelligence": {
+    "Artificial Intelligence": [
+      "ai/sql",
+      "ai/ai-intro",
+      "ai/dl",
+      "ai/ml",
+      {
+        "type": "subcategory",
+        "label": "Deeplearning alogorithms",
+        "ids": [
+          "ai/dl"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Machinelearning alogorithms",
+        "ids": [
+          "ai/ml"
+        ]
+      }
+    ]
   }
 }
